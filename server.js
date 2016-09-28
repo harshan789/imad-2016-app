@@ -87,7 +87,7 @@ app.get('/:articleName',function(req,res){
     //articleName will be article
     //articles[articleName]={} content object for article
     var articleName=req.param.articleName;
-    res.send(createTemplate(articles[articlename]));
+    res.send(createTemplate(articles[articleName]));
 });
 app.get('/two',function(req,res){
    res.sendFile(path.join(__dirname, 'ui', 'two.html'));
