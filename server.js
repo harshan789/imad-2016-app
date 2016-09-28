@@ -24,14 +24,14 @@ var articles= {
           
          
   'two': { 
-     title: 'article two- Harshan',
+     title: 'two- Harshan',
     heading:'two',
     date:'sep 10 2016',
     content:`<p>
               This is the content of my second article.This is the content of my second article.This is the content of my second article.</p>`
               },
  'three':{
-     title: 'article three- Harshan',
+     title: 'three- Harshan',
     heading:'two',
     date:'sep 15 2016',
     content:`<p>
