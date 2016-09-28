@@ -16,11 +16,12 @@ app.get('/two',function(req,res){
    res.sendFile(path.join(__dirname, 'ui', 'two.html'));
 });
 app.get('/three',function(req,res){
-    res.send('article three is here');
-});
-app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'three.html'));
 });
+app.get('/ui/style.css', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'style.css'));
+});
+
 app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
